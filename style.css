@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*
+{
+    background-color: #1f3341;
+    margin: 0%;
+    padding: 0%;
+
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    height: 56vw;
+    width: 100%;
+    flex-direction: column;
+}
+.box1
+{
+    margin: 23px 0px 125px 0px;
+}
+h1
+{
+    font-size: 8vh;
+    color: #BC0E4C;
+    text-shadow: 3px 4px 35px #ff0000;
+}
+.box2
+{
+    display: flex;
+    flex-direction: row;
+}
+.box1 a, h2
+{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;;
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    font-size: 23px;
+}
+h2
+{
+    color: yellowgreen;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 60px;
+}
+.box1 a:hover
+{
+    color: rgb(0, 21, 255);
+    text-shadow: 3px 4px 35px rgb(0, 0, 0);
+}
+.player1, .player2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player1 a ,.player2 a
+{
+    text-decoration: none;
+    color: #ffc501;
+    padding-top: 9px;
+    font-size: 20px;
+    font-family: 'Macondo', cursive; 
+    cursor: default;
+    text-shadow: 3px 4px 35px #ffc501;
+}
+.player1 a:hover ,.player2 a:hover
+{
+    color: tomato;
+    text-shadow: 3px 4px 35px tomato;
+}
+
